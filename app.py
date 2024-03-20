@@ -7,16 +7,16 @@ compare_df = pd.read_csv("compare.csv")
 # Set app configuration to wide mode
 st.set_page_config(page_title="Analysis Dashboard",layout="wide", initial_sidebar_state="auto")
 
-st.markdown(
-    """
-    <style>
-    body {
-        color: black;
-        background-color: white;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True)
+# st.markdown(
+#     """
+#     <style>
+#     body {
+#         color: black;
+#         background-color: white;
+#     }
+#     </style>
+#     """,
+#     unsafe_allow_html=True)
 
 # Streamlit app layout
 st.markdown("""<h1 style="color: red; text-align: center;">Badminton Match Analysis</h1>""", unsafe_allow_html=True)
