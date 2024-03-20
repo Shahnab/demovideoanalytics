@@ -29,7 +29,7 @@ col1, col2 = st.columns(2)
 # Left Half (Comparison Table)
 with col1:
     st.markdown("### Match Video")
-    video_embed = f'<iframe src="https://www.youtube.com/embed/fIDRVN5JI1E" width="900" height="500" frameborder="0" allowfullscreen></iframe>'
+    video_embed = f'<iframe src="https://www.youtube.com/embed/fIDRVN5JI1E" width="600" height="500" frameborder="0" allowfullscreen></iframe>'
     st.markdown(video_embed, unsafe_allow_html=True)
     st.markdown("### Match Details")
     st.markdown("The players in the match are:\n"
